@@ -1,0 +1,17 @@
+{
+  "name": "basic-project",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/server.js || sweet-warning"
+  },
+  "author": "mentoria-unasp",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.19",
+    "sweet-warning": "^1.0.0"
+  },
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
